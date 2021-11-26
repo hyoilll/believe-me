@@ -1,9 +1,15 @@
-const App = () => {
+import Head from "next/head";
+import AppLayout from "../components/AppLayout";
+
+const Area = () => {
   return (
     <>
-      <div>hello</div>
+      <Head>
+        <title>BelieveMe | Area</title>
+      </Head>
+      <AppLayout headerTitle={"Area"}>Area</AppLayout>
     </>
   );
 };
 
-export default App;
+export default Area;
